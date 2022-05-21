@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mainIcon">TODO</string>
+    <string name="button1">학 부 공 지 사 항</string>
+    <string name="button2">교 수 / 연 구 실</string>
+    <string name="button3">학 사 일 정</string>
+    <string name="button4">학 부 사 무 실</string>
+    <string name="mainIcon2">TODO</string>
+    <string name="bell">bell</string>
+    <string name="bar">I</string>
+    <string name="menutitle">Title</string>
+    <string name="menuicon">TODO</string>
+    <string name="naviicon">naviicon</string>
+    <string name="searchicon">TODO</string>
+    <string name="pagebtn1">1</string>
+    <string name="pagebtn2">2</string>
+    <string name="pagebtn3">3</string>
+    <string name="pagebtn4">4</string>
+    <string name="searchtext">검색</string>
+    <string name="pagebtnright"><![CDATA[>>]]></string>
+    <string name="pagebtnleft"><![CDATA[<<]]></string>
+    <string name="title_activity_navi">navi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="navbtn1">공지사항</string>
+    <string name="string_navbtn1">공지사항</string>
+    <string name="string_string_navbtn1">공지사항</string>
+    <string name="navbtn2">교수/연구실</string>
+    <string name="string_navbtn2">교수/연구실</string>
+    <string name="string_string_navbtn2">교수/연구실</string>
+    <string name="navbtn3">학사일정</string>
+    <string name="string_navbtn3">학사일정</string>
+    <string name="string_string_navbtn3">학사일정</string>
+    <string name="string_string_string_navbtn3">학사일정</string>
+    <string name="navbtn4">학부사무실</string>
+</resources>
