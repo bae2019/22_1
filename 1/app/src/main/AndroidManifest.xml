@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".office"
-            android:exported="false" />
-        <activity
             android:name=".navi"
             android:exported="false"
             android:label="@string/title_activity_navi"
             android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".Notice_Content"
+            android:exported="false" />
+        <activity
+            android:name=".Keyword"
+            android:exported="false" />
+        <activity
+            android:name=".office"
+            android:exported="false" />
         <activity
             android:name=".Notice"
             android:exported="false" />
