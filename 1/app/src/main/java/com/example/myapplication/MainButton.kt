@@ -21,7 +21,7 @@ class MainButton : AppCompatActivity() {
             Toast.makeText(this@MainButton, "학사일정 화면 전환", Toast.LENGTH_SHORT).show()
         }
         mainbtn4.setOnClickListener {
-            startActivity(Intent(this, office::class.java))
+            startActivity(Intent(this, Office::class.java))
         }
     }
 

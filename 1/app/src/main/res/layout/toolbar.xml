@@ -14,6 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/navbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/menuicon"
+            app:srcCompat="@drawable/pinclipart_com_menu_clip_art_5328945" />
+
         <TextView
             android:id="@+id/title"
             android:layout_width="195dp"
@@ -46,19 +59,6 @@
             android:textColor="@android:color/white"
             android:textSize="48sp"
             android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/navbtn"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="6dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:contentDescription="@string/menuicon"
-            app:srcCompat="@drawable/pinclipart_com_menu_clip_art_5328945" />
 
         <ImageView
             android:id="@+id/bellicon"

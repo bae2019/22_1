@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".navnotice"
+            android:exported="false" />
+        <activity
             android:name=".navi"
             android:exported="false"
             android:label="@string/title_activity_navi"
@@ -21,7 +24,7 @@
             android:name=".Keyword"
             android:exported="false" />
         <activity
-            android:name=".office"
+            android:name=".Office"
             android:exported="false" />
         <activity
             android:name=".Notice"
