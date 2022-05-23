@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1855" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1855" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/drawable/menuicon.xml" value="0.1855" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/activity_lab.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/activity_main_button.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/activity_office.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/navi_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/professeor_webview.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/professor_intro.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/professor_item.xml" value="0.264" />
+        <entry key="..\:/Users/mycho/Documents/22_1/1/app/src/main/res/layout/toolbar.xml" value="0.24947916666666667" />
         <entry key="..\:/and_workspace/1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
         <entry key="..\:/and_workspace/1/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.1165" />
         <entry key="..\:/and_workspace/1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />

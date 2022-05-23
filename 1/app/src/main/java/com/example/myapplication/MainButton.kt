@@ -24,5 +24,4 @@ class MainButton : AppCompatActivity() {
             startActivity(Intent(this, office::class.java))
         }
     }
-
 }
