@@ -10,6 +10,7 @@ import com.example.myapplication.ui.extra.professor_profile
 import com.example.myapplication.ui.extra.professor_webview
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_lab.*
+import kotlinx.android.synthetic.main.activity_main_button.*
 
 
 class Lab : AppCompatActivity() {
@@ -39,5 +40,9 @@ class Lab : AppCompatActivity() {
         professor_list.setHasFixedSize(true)
 
         professor_list.adapter = ProfileAdapter(profileList)
+
+        button_test.setOnClickListener {
+            startActivity(Intent(this, professor_webview::class.java))
+        }
     }
 }
