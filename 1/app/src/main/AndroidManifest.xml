@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
-    <!--인터넷 퍼미션 -->
-    <uses-permission android:name="android.permission.INTERNET"/>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,13 +12,14 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".office"
+            android:name=".Notice_Content"
             android:exported="false" />
         <activity
-            android:name=".navi"
-            android:exported="false"
-            android:label="@string/title_activity_navi"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
+            android:name=".Keyword"
+            android:exported="false" />
+        <activity
+            android:name=".Office"
+            android:exported="false" />
         <activity
             android:name=".Notice"
             android:exported="false" />
@@ -27,10 +27,13 @@
             android:name=".Lab"
             android:exported="false" />
         <activity
-            android:name=".Calendar"
+            android:name=".MainButton"
             android:exported="false" />
         <activity
-            android:name=".MainButton"
+            android:name=".Professor_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Calendar"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -41,9 +44,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.extra.professor_webview"
-            android:exported="false"/>
     </application>
 
 </manifest>

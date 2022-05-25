@@ -7,13 +7,19 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.core.view.GravityCompat
 import com.google.android.material.navigation.NavigationView
-import kotlinx.android.synthetic.main.office.*
+import kotlinx.android.synthetic.main.activity_notice_content.*
+import kotlinx.android.synthetic.main.notice_content.*
 import kotlinx.android.synthetic.main.toolbar.*
 
-class Office : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class Notice_Content : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.office)
+        setContentView(R.layout.notice_content)
+
+        //목록으로 돌아가기 버튼
+        button.setOnClickListener {
+            startActivity(Intent(this, Notice::class.java))
+        }
 
         //navigation drawer
         setSupportActionBar(toolbar)
@@ -22,7 +28,7 @@ class Office : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
         supportActionBar?.setDisplayShowCustomEnabled(false)
 
         navbtn.setOnClickListener {
-            office.openDrawer(GravityCompat.START)
+            notice_content.openDrawer(GravityCompat.START)
         }
         bellicon.setOnClickListener {
             startActivity(Intent(this, Keyword::class.java))
@@ -32,7 +38,7 @@ class Office : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             android.R.id.home->{
-                office.openDrawer(GravityCompat.START)
+                notice_content.openDrawer(GravityCompat.START)
             }
         }
         return super.onOptionsItemSelected(item)
@@ -49,11 +55,12 @@ class Office : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
     }
 
     override fun onBackPressed() {
-        if(office.isDrawerOpen(GravityCompat.START)){
-            office.closeDrawers()
+        if(notice_content.isDrawerOpen(GravityCompat.START)){
+            notice_content.closeDrawers()
         }else {
             super.onBackPressed()
         }
     }
+
 
 }

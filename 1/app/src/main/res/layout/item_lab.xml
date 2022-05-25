@@ -12,7 +12,7 @@
         <TextView
             android:id="@+id/item_lab1"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="70dp"
             android:layout_weight="1"
             android:background="@color/white"
             android:gravity="center"
@@ -23,7 +23,7 @@
         <TextView
             android:id="@+id/item_lab2"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="70dp"
             android:layout_weight="3"
             android:background="@color/white"
             android:gravity="center"
@@ -34,7 +34,7 @@
         <TextView
             android:id="@+id/item_lab3"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="70dp"
             android:layout_weight="1"
             android:background="@color/white"
             android:gravity="center"
@@ -45,7 +45,7 @@
         <TextView
             android:id="@+id/item_lab4"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="70dp"
             android:layout_weight="1"
             android:background="@color/white"
             android:gravity="center"
