@@ -27,6 +27,9 @@ class Office : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
         bellicon.setOnClickListener {
             startActivity(Intent(this, Keyword::class.java))
         }
+
+        office_navigationView.setNavigationItemSelectedListener(this)
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -42,8 +45,8 @@ class Office : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
         when(item.itemId){
             R.id.navbtn1->startActivity(Intent(this, Notice::class.java))
             R.id.navbtn2->startActivity(Intent(this, Lab::class.java))
-            R.id.navbtn3-> Toast.makeText(this,"학사일정 연결", Toast.LENGTH_SHORT).show()
-            R.id.navbtn4->startActivity(Intent(this, Office::class.java))
+            R.id.navbtn3->Toast.makeText(this,"학사일정 연결", Toast.LENGTH_SHORT).show()
+            R.id.navbtn4->office.closeDrawers()
         }
         return false
     }

@@ -13,10 +13,10 @@
     <include
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/activity_office"/>
+        layout="@layout/activity_keyword"/>
 
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/main_navigationView"
+        android:id="@+id/keyword_navigationView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="left"
