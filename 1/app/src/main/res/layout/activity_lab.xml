@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--navigation drawer 미적용 교수/연구실 page-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/fragbtnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/include2">
+
+        <Button
+            android:id="@+id/fragbtn0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㄱ" />
+
+        <Button
+            android:id="@+id/fragbtn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㄷ" />
+
+        <Button
+            android:id="@+id/fragbtn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅁ" />
+
+        <Button
+            android:id="@+id/fragbtn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅂ" />
+
+        <Button
+            android:id="@+id/fragbtn4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅅ" />
+
+        <Button
+            android:id="@+id/fragbtn5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅇ" />
+
+        <Button
+            android:id="@+id/fragbtn6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅈ" />
+
+        <Button
+            android:id="@+id/fragbtn7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅊ" />
+
+        <Button
+            android:id="@+id/fragbtn8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅌ" />
+
+        <Button
+            android:id="@+id/fragbtn9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="ㅎ" />
+
+        <Button
+            android:id="@+id/fragbtn10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="초빙" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragbtnlayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
