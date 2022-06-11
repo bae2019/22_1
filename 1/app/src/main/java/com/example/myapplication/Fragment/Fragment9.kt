@@ -33,11 +33,11 @@ class Fragment9 : Fragment() {
 
         //교수 정보 입력
         val lablist = arrayListOf(
-            InLab(Pname = "한동석", Lname = "지능신호처리 연구실", Laddress = "IT1-511", Laddress2 = "IT1-509,\n512"),
-            InLab(Pname = "한병철", Lname = "전력전자 및 제어 시스템 연구실", Laddress = "IT1-925", Laddress2 = " "),
-            InLab(Pname = "한준구", Lname = "3차원 광학 기술 연구실", Laddress = "IT2-247", Laddress2 = "IT2-242"),
-            InLab(Pname = "함성호", Lname = "반도체센서 및 광소자 연구실", Laddress = "IT3-502A", Laddress2 = "IT3-509A"),
-            InLab(Pname = "허성호", Lname = "Control and Renewable Energy Lab", Laddress = "IT1-805", Laddress2 = "IT1-804")
+            InLab(Pname = "한동석", Lname = "지능신호처리 연구실", Laddress = "IT1-511", Laddress2 = "IT1-509,\n512", Lurl = "https://see.knu.ac.kr/include/profile.html?id=104"),
+            InLab(Pname = "한병철", Lname = "전력전자 및 제어 시스템 연구실", Laddress = "IT1-925", Laddress2 = " ", Lurl = "https://see.knu.ac.kr/include/profile.html?id=279"),
+            InLab(Pname = "한준구", Lname = "3차원 광학 기술 연구실", Laddress = "IT2-247", Laddress2 = "IT2-242", Lurl = "https://see.knu.ac.kr/include/profile.html?id=67"),
+            InLab(Pname = "함성호", Lname = "반도체센서 및 광소자 연구실", Laddress = "IT3-502A", Laddress2 = "IT3-509A", Lurl = "https://see.knu.ac.kr/include/profile.html?id=62"),
+            InLab(Pname = "허성호", Lname = "Control and Renewable Energy Lab", Laddress = "IT1-805", Laddress2 = "IT1-804", Lurl = "https://see.knu.ac.kr/include/profile.html?id=228")
         )
 
         rv_lab9.layoutManager = LinearLayoutManager(act, LinearLayoutManager.VERTICAL, false)

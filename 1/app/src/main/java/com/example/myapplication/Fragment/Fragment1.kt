@@ -33,7 +33,7 @@ class Fragment1 : Fragment() {
 
         //교수 정보 입력
         val lablist = arrayListOf(
-            InLab(Pname = "도윤선", Lname = "나노 포토닉스 응용전자 연구실", Laddress = "IT1-823", Laddress2 = "IT1-824,\n826")
+            InLab(Pname = "도윤선", Lname = "나노 포토닉스 응용전자 연구실", Laddress = "IT1-823", Laddress2 = "IT1-824,\n826", Lurl = "https://see.knu.ac.kr/include/profile.html?id=226")
         )
 
         rv_lab1.layoutManager = LinearLayoutManager(act, LinearLayoutManager.VERTICAL, false)

@@ -33,7 +33,7 @@ class Fragment8 : Fragment() {
 
         //교수 정보 입력
         val lablist = arrayListOf(
-            InLab(Pname = "태흥식", Lname = "Advanced Photon-coupled Plasma Electronics Lab.", Laddress = "IT1-911", Laddress2 = "IT1-907,\n909")
+            InLab(Pname = "태흥식", Lname = "Advanced Photon-coupled Plasma Electronics Lab.", Laddress = "IT1-911", Laddress2 = "IT1-907,\n909", Lurl = "https://see.knu.ac.kr/include/profile.html?id=75")
         )
 
         rv_lab8.layoutManager = LinearLayoutManager(act, LinearLayoutManager.VERTICAL, false)

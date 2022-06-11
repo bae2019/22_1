@@ -67,7 +67,6 @@ id keyword
 id keyword_navigationView
 id keywordbtn
 id lab
-id lab_name
 id lab_navigationView
 id linearLayout10
 id linearLayout11
@@ -99,9 +98,7 @@ id num
 id office
 id office_navigationView
 id professor_intro
-id professor_name
 id recyclerView
-id room_number
 id rv_lab
 id rv_lab0
 id rv_lab1
@@ -152,7 +149,6 @@ layout notice_content
 layout notice_item
 layout office
 layout professeor_webview
-layout professor_item
 layout toolbar
 menu navi_menu
 mipmap ic_launcher

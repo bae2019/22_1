@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,7 +17,11 @@ class InLabAdapter (val lablist: ArrayList<InLab>) : RecyclerView.Adapter<InLabA
             itemView.setOnClickListener {
                 val curPos : Int = adapterPosition
                 val labc : InLab = lablist.get(curPos)
-                Toast.makeText(parent.context, "${labc.Pname} 교수님 정보\n웹뷰페이지 연결", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(parent.context, "${labc.Lurl} 웹뷰페이지 연결", Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(itemView.context, Professor_webview::class.java)
+                intent.putExtra("url", labc.Lurl);
+                itemView.context.startActivity(intent)
             }
         }
     }

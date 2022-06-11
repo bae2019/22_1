@@ -34,10 +34,10 @@ class Fragment4 : Fragment() {
 
         //교수 정보 입력
         val lablist = arrayListOf(
-            InLab(Pname = "서대화", Lname = "모바일컴퓨팅 및 임베디드시스템 연구실", Laddress = "IT1-305", Laddress2 = "IT1-305,\n306"),
-            InLab(Pname = "송대건\n(부학부장)", Lname = "지능형 3차원 집적회로 연구실", Laddress = "IT2-241", Laddress2 = " "),
-            InLab(Pname = "신미영", Lname = "생체정보 마이닝 연구실", Laddress = "IT3-601B", Laddress2 = "IT3-601A"),
-            InLab(Pname = "심재훈", Lname = "통신 회로 및 시스템 연구실", Laddress = "IT3-503A", Laddress2 = "IT3-503,\n509")
+            InLab(Pname = "서대화", Lname = "모바일컴퓨팅 및 임베디드시스템 연구실", Laddress = "IT1-305", Laddress2 = "IT1-305,\n306", Lurl = "https://see.knu.ac.kr/include/profile.html?id=96"),
+            InLab(Pname = "송대건\n(부학부장)", Lname = "지능형 3차원 집적회로 연구실", Laddress = "IT2-241", Laddress2 = " ", Lurl = "https://see.knu.ac.kr/include/profile.html?id=250"),
+            InLab(Pname = "신미영", Lname = "생체정보 마이닝 연구실", Laddress = "IT3-601B", Laddress2 = "IT3-601A", Lurl = "https://see.knu.ac.kr/include/profile.html?id=79"),
+            InLab(Pname = "심재훈", Lname = "통신 회로 및 시스템 연구실", Laddress = "IT3-503A", Laddress2 = "IT3-503,\n509", Lurl = "https://see.knu.ac.kr/include/profile.html?id=22")
         )
 
         rv_lab4.layoutManager = LinearLayoutManager(act, LinearLayoutManager.VERTICAL, false)

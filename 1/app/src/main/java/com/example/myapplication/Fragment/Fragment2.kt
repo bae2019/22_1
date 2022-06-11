@@ -34,8 +34,8 @@ class Fragment2 : Fragment() {
 
         //교수 정보 입력
         val lablist = arrayListOf(
-            InLab(Pname = "문병인\n(전공주임)", Lname = "시스템온칩 연구실", Laddress = "IT1-725", Laddress2 = "IT1-727,\n728"),
-            InLab(Pname = "민문식\n(전공주임)", Lname = "무선 시스템 연구실", Laddress = "IT1-827", Laddress2 = "IT1-828"),
+            InLab(Pname = "문병인\n(전공주임)", Lname = "시스템온칩 연구실", Laddress = "IT1-725", Laddress2 = "IT1-727,\n728", Lurl = "https://see.knu.ac.kr/include/profile.html?id=18"),
+            InLab(Pname = "민문식\n(전공주임)", Lname = "무선 시스템 연구실", Laddress = "IT1-827", Laddress2 = "IT1-828", Lurl = "https://see.knu.ac.kr/include/profile.html?id=271"),
         )
 
         rv_lab2.layoutManager = LinearLayoutManager(act, LinearLayoutManager.VERTICAL, false)

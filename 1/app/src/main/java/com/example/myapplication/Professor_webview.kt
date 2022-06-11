@@ -10,6 +10,7 @@ import com.example.myapplication.R
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.professeor_webview.*
 
+
 class Professor_webview : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

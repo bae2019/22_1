@@ -2905,7 +2905,6 @@ int id keyword 0x7f080122
 int id keyword_navigationView 0x7f080123
 int id keywordbtn 0x7f080124
 int id lab 0x7f080125
-int id lab_name 0x7f080126
 int id lab_navigationView 0x7f080127
 int id labeled 0x7f080128
 int id layout 0x7f080129
@@ -3048,7 +3047,6 @@ int id pin 0x7f0801b7
 int id position 0x7f0801b8
 int id postLayout 0x7f0801b9
 int id professor_intro 0x7f0801ba
-int id professor_name 0x7f0801bb
 int id progress_circular 0x7f0801bc
 int id progress_horizontal 0x7f0801bd
 int id radio 0x7f0801be
@@ -3060,7 +3058,6 @@ int id right 0x7f0801c3
 int id rightToLeft 0x7f0801c4
 int id right_icon 0x7f0801c5
 int id right_side 0x7f0801c6
-int id room_number 0x7f0801c7
 int id rounded 0x7f0801c8
 int id row_index_key 0x7f0801c9
 int id rtl 0x7f0801ca
@@ -3423,7 +3420,6 @@ int layout notification_template_part_chronometer 0x7f0b0081
 int layout notification_template_part_time 0x7f0b0082
 int layout office 0x7f0b0083
 int layout professeor_webview 0x7f0b0084
-int layout professor_item 0x7f0b0085
 int layout select_dialog_item_material 0x7f0b0086
 int layout select_dialog_multichoice_material 0x7f0b0087
 int layout select_dialog_singlechoice_material 0x7f0b0088
