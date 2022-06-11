@@ -43,6 +43,7 @@ class Lab : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
         }
         bellicon.setOnClickListener {
             startActivity(Intent(this, Keyword::class.java))
+            finish()
         }
 
         lab_navigationView.setNavigationItemSelectedListener(this)
@@ -76,10 +77,13 @@ class Lab : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.navbtn1->startActivity(Intent(this, Notice::class.java))
+            R.id.navbtn1->{startActivity(Intent(this, Notice::class.java))
+                finish()}
             R.id.navbtn2->lab.closeDrawers()
-            R.id.navbtn3->startActivity(Intent(this, Calendar::class.java))
-            R.id.navbtn4->startActivity(Intent(this, Office::class.java))
+            R.id.navbtn3->{startActivity(Intent(this, Calendar::class.java))
+                finish()}
+            R.id.navbtn4->{startActivity(Intent(this, Office::class.java))
+                finish()}
         }
         return false
     }
@@ -88,7 +92,7 @@ class Lab : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
         if(lab.isDrawerOpen(GravityCompat.START)){
             lab.closeDrawers()
         }else {
-            super.onBackPressed()
+            finish()
         }
     }
 

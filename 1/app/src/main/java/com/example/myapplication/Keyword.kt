@@ -38,10 +38,14 @@ class Keyword : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.navbtn1->startActivity(Intent(this, Notice::class.java))
-            R.id.navbtn2->startActivity(Intent(this, Lab::class.java))
-            R.id.navbtn3->startActivity(Intent(this, Calendar::class.java))
-            R.id.navbtn4->startActivity(Intent(this, Office::class.java))
+            R.id.navbtn1->{startActivity(Intent(this, Notice::class.java))
+                finish()}
+            R.id.navbtn2->{startActivity(Intent(this, Lab::class.java))
+                finish()}
+            R.id.navbtn3->{startActivity(Intent(this, Calendar::class.java))
+                finish()}
+            R.id.navbtn4->{startActivity(Intent(this, Office::class.java))
+                finish()}
         }
         return false
     }
@@ -50,7 +54,7 @@ class Keyword : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
         if(keyword.isDrawerOpen(GravityCompat.START)){
             keyword.closeDrawers()
         }else {
-            super.onBackPressed()
+            finish()
         }
     }
 }

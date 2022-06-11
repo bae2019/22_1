@@ -24,4 +24,10 @@ class MainButton : AppCompatActivity() {
         }
     }
 
+    override fun onBackPressed() {
+        moveTaskToBack(true);
+        finishAndRemoveTask();
+        System.exit(0);
+    }
+
 }

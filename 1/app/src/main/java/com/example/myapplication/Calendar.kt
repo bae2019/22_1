@@ -25,6 +25,7 @@ class Calendar : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         }
         bellicon.setOnClickListener {
             startActivity(Intent(this, Keyword::class.java))
+            finish()
         }
 
         notice_navigationView.setNavigationItemSelectedListener(this)
@@ -42,10 +43,13 @@ class Calendar : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.navbtn1->startActivity(Intent(this, Notice::class.java))
-            R.id.navbtn2->startActivity(Intent(this, Lab::class.java))
+            R.id.navbtn1->{startActivity(Intent(this, Notice::class.java))
+                finish()}
+            R.id.navbtn2->{startActivity(Intent(this, Lab::class.java))
+                finish()}
             R.id.navbtn3->calendar.closeDrawers()
-            R.id.navbtn4->startActivity(Intent(this, Office::class.java))
+            R.id.navbtn4->{startActivity(Intent(this, Office::class.java))
+                finish()}
         }
         return false
     }
@@ -54,7 +58,7 @@ class Calendar : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         if(calendar.isDrawerOpen(GravityCompat.START)){
             calendar.closeDrawers()
         }else {
-            super.onBackPressed()
-        }
+            finish()
+            }
     }
 }

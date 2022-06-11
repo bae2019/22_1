@@ -43,6 +43,7 @@ class Notice : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
             }
             bellicon.setOnClickListener {
                 startActivity(Intent(this, Keyword::class.java))
+                finish()
             }
 
             notice_navigationView.setNavigationItemSelectedListener(this)
@@ -80,9 +81,12 @@ class Notice : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.navbtn1->notice.closeDrawers()
-            R.id.navbtn2->startActivity(Intent(this, Lab::class.java))
-            R.id.navbtn3->startActivity(Intent(this, Calendar::class.java))
-            R.id.navbtn4->startActivity(Intent(this, Office::class.java))
+            R.id.navbtn2->{startActivity(Intent(this, Lab::class.java))
+                finish()}
+            R.id.navbtn3->{startActivity(Intent(this, Calendar::class.java))
+                finish()}
+            R.id.navbtn4->{startActivity(Intent(this, Office::class.java))
+                finish()}
         }
         return false
     }
@@ -91,7 +95,7 @@ class Notice : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
         if(notice.isDrawerOpen(GravityCompat.START)){
             notice.closeDrawers()
         }else {
-            super.onBackPressed()
+            finish()
         }
     }
     fun observerData(){
