@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<<<<<<< HEAD:1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/notice_item.xml
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 389c2ee8931ce7a24a764eb37d2ed052eaf05888:1/app/src/main/res/layout/notice_item.xml
     android:layout_width="match_parent"
     android:layout_height="30dp"
     android:layout_margin="0dp"
