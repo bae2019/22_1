@@ -27,21 +27,16 @@ public final class ToolbarBinding implements ViewBinding {
   public final ImageView navbtn;
 
   @NonNull
-  public final TextView title;
-
-  @NonNull
   public final Toolbar toolbar;
 
   @NonNull
   public final TextView verbar;
 
   private ToolbarBinding(@NonNull Toolbar rootView, @NonNull ImageView bellicon,
-      @NonNull ImageView navbtn, @NonNull TextView title, @NonNull Toolbar toolbar,
-      @NonNull TextView verbar) {
+      @NonNull ImageView navbtn, @NonNull Toolbar toolbar, @NonNull TextView verbar) {
     this.rootView = rootView;
     this.bellicon = bellicon;
     this.navbtn = navbtn;
-    this.title = title;
     this.toolbar = toolbar;
     this.verbar = verbar;
   }
@@ -85,12 +80,6 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.title;
-      TextView title = ViewBindings.findChildViewById(rootView, id);
-      if (title == null) {
-        break missingId;
-      }
-
       Toolbar toolbar = (Toolbar) rootView;
 
       id = R.id.verbar;
@@ -99,7 +88,7 @@ public final class ToolbarBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ToolbarBinding((Toolbar) rootView, bellicon, navbtn, title, toolbar, verbar);
+      return new ToolbarBinding((Toolbar) rootView, bellicon, navbtn, toolbar, verbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

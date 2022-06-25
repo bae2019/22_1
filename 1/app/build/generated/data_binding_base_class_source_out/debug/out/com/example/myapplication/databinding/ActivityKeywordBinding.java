@@ -6,10 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplication.R;
@@ -22,25 +23,33 @@ public final class ActivityKeywordBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText editTextTextPersonName;
+  public final EditText editKeyword;
 
   @NonNull
   public final ToolbarBinding include2;
 
   @NonNull
+  public final ListView keywordListView;
+
+  @NonNull
   public final Button keywordbtn;
 
   @NonNull
-  public final RecyclerView rvLab;
+  public final TextView textView3;
 
-  private ActivityKeywordBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText editTextTextPersonName, @NonNull ToolbarBinding include2,
-      @NonNull Button keywordbtn, @NonNull RecyclerView rvLab) {
+  @NonNull
+  public final TextView textView6;
+
+  private ActivityKeywordBinding(@NonNull ConstraintLayout rootView, @NonNull EditText editKeyword,
+      @NonNull ToolbarBinding include2, @NonNull ListView keywordListView,
+      @NonNull Button keywordbtn, @NonNull TextView textView3, @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.editTextTextPersonName = editTextTextPersonName;
+    this.editKeyword = editKeyword;
     this.include2 = include2;
+    this.keywordListView = keywordListView;
     this.keywordbtn = keywordbtn;
-    this.rvLab = rvLab;
+    this.textView3 = textView3;
+    this.textView6 = textView6;
   }
 
   @Override
@@ -70,9 +79,9 @@ public final class ActivityKeywordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
+      id = R.id.edit_keyword;
+      EditText editKeyword = ViewBindings.findChildViewById(rootView, id);
+      if (editKeyword == null) {
         break missingId;
       }
 
@@ -83,20 +92,32 @@ public final class ActivityKeywordBinding implements ViewBinding {
       }
       ToolbarBinding binding_include2 = ToolbarBinding.bind(include2);
 
+      id = R.id.keyword_listView;
+      ListView keywordListView = ViewBindings.findChildViewById(rootView, id);
+      if (keywordListView == null) {
+        break missingId;
+      }
+
       id = R.id.keywordbtn;
       Button keywordbtn = ViewBindings.findChildViewById(rootView, id);
       if (keywordbtn == null) {
         break missingId;
       }
 
-      id = R.id.rv_lab;
-      RecyclerView rvLab = ViewBindings.findChildViewById(rootView, id);
-      if (rvLab == null) {
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
         break missingId;
       }
 
-      return new ActivityKeywordBinding((ConstraintLayout) rootView, editTextTextPersonName,
-          binding_include2, keywordbtn, rvLab);
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      return new ActivityKeywordBinding((ConstraintLayout) rootView, editKeyword, binding_include2,
+          keywordListView, keywordbtn, textView3, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

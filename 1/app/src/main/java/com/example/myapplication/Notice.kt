@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
-import android.widget.SearchView
 import androidx.core.view.GravityCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -13,17 +12,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_notice.*
-import kotlinx.android.synthetic.main.lab.*
 import kotlinx.android.synthetic.main.notice.*
 import kotlinx.android.synthetic.main.toolbar.*
-import java.util.Locale.filter
 
 class Notice : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     companion object{
         var count : Int = 0 //전역변수로 count 선언
     }
-    private lateinit var adapter: notice_adapter
+    private lateinit var adapter: Notice_adapter
     private val viewModel by lazy {
         ViewModelProvider(this).get(ListViewModel::class.java)
     }
@@ -49,7 +46,7 @@ class Notice : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
             notice_navigationView.setNavigationItemSelectedListener(this)
         /************************************************************/
 
-        adapter = notice_adapter(this)
+        adapter = Notice_adapter(this)
         val recyclerView : RecyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = adapter

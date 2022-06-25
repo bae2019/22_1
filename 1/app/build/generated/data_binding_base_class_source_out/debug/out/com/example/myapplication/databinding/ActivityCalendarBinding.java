@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -58,6 +59,9 @@ public final class ActivityCalendarBinding implements ViewBinding {
   @NonNull
   public final ToolbarBinding include;
 
+  @NonNull
+  public final TextView textView;
+
   private ActivityCalendarBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView calendarImageView1, @NonNull ImageView calendarImageView10,
       @NonNull ImageView calendarImageView11, @NonNull ImageView calendarImageView12,
@@ -65,7 +69,7 @@ public final class ActivityCalendarBinding implements ViewBinding {
       @NonNull ImageView calendarImageView4, @NonNull ImageView calendarImageView5,
       @NonNull ImageView calendarImageView6, @NonNull ImageView calendarImageView7,
       @NonNull ImageView calendarImageView8, @NonNull ImageView calendarImageView9,
-      @NonNull ToolbarBinding include) {
+      @NonNull ToolbarBinding include, @NonNull TextView textView) {
     this.rootView = rootView;
     this.calendarImageView1 = calendarImageView1;
     this.calendarImageView10 = calendarImageView10;
@@ -80,6 +84,7 @@ public final class ActivityCalendarBinding implements ViewBinding {
     this.calendarImageView8 = calendarImageView8;
     this.calendarImageView9 = calendarImageView9;
     this.include = include;
+    this.textView = textView;
   }
 
   @Override
@@ -188,10 +193,16 @@ public final class ActivityCalendarBinding implements ViewBinding {
       }
       ToolbarBinding binding_include = ToolbarBinding.bind(include);
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
       return new ActivityCalendarBinding((ConstraintLayout) rootView, calendarImageView1,
           calendarImageView10, calendarImageView11, calendarImageView12, calendarImageView2,
           calendarImageView3, calendarImageView4, calendarImageView5, calendarImageView6,
-          calendarImageView7, calendarImageView8, calendarImageView9, binding_include);
+          calendarImageView7, calendarImageView8, calendarImageView9, binding_include, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

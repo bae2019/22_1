@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.myapplication.InLab
-import com.example.myapplication.InLabAdapter
+import com.example.myapplication.Lab_data
+import com.example.myapplication.Lab_adapter
 import com.example.myapplication.R
 import kotlinx.android.synthetic.main.frag1.*
 
@@ -33,12 +33,12 @@ class Fragment1 : Fragment() {
 
         //교수 정보 입력
         val lablist = arrayListOf(
-            InLab(Pname = "도윤선", Lname = "나노 포토닉스 응용전자 연구실", Laddress = "IT1-823", Laddress2 = "IT1-824,\n826", Lurl = "https://see.knu.ac.kr/include/profile.html?id=226")
+            Lab_data(Pname = "도윤선", Lname = "나노 포토닉스 응용전자 연구실", Laddress = "IT1-823", Laddress2 = "IT1-824,\n826", Lurl = "https://see.knu.ac.kr/include/profile.html?id=226")
         )
 
         rv_lab1.layoutManager = LinearLayoutManager(act, LinearLayoutManager.VERTICAL, false)
         rv_lab1.setHasFixedSize(true)
-        rv_lab1.adapter = InLabAdapter(lablist)
+        rv_lab1.adapter = Lab_adapter(lablist)
     }
 
 

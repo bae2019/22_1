@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
@@ -33,14 +34,18 @@ public final class ActivityNoticeBinding implements ViewBinding {
   @NonNull
   public final SearchView searchNotice;
 
+  @NonNull
+  public final TextView textView;
+
   private ActivityNoticeBinding(@NonNull ConstraintLayout rootView, @NonNull ToolbarBinding include,
       @NonNull LinearLayout linearLayout5, @NonNull RecyclerView recyclerView,
-      @NonNull SearchView searchNotice) {
+      @NonNull SearchView searchNotice, @NonNull TextView textView) {
     this.rootView = rootView;
     this.include = include;
     this.linearLayout5 = linearLayout5;
     this.recyclerView = recyclerView;
     this.searchNotice = searchNotice;
+    this.textView = textView;
   }
 
   @Override
@@ -95,8 +100,14 @@ public final class ActivityNoticeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
       return new ActivityNoticeBinding((ConstraintLayout) rootView, binding_include, linearLayout5,
-          recyclerView, searchNotice);
+          recyclerView, searchNotice, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

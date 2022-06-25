@@ -14,30 +14,30 @@ import com.example.myapplication.Notice.Companion.count
 import java.util.*
 import kotlin.collections.ArrayList
 
-class notice_adapter(private val context: Context): RecyclerView.Adapter<notice_adapter.ViewHolder>(), Filterable {
-    var filteredList = mutableListOf<notice_data>()
-    val originalList = mutableListOf<notice_data>()
+class Notice_adapter(private val context: Context): RecyclerView.Adapter<Notice_adapter.ViewHolder>(), Filterable {
+    var filteredList = mutableListOf<Notice_data>()
+    val originalList = mutableListOf<Notice_data>()
 
-    fun setListData(data:MutableList<notice_data>){
+    fun setListData(data:MutableList<Notice_data>){
         filteredList = data
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): notice_adapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Notice_adapter.ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.notice_item,parent, false)
         return ViewHolder(view).apply {
             itemView.setOnClickListener {
                 val curP : Int = adapterPosition
-                val noticec : notice_data = filteredList.get(curP)
+                val noticec : Notice_data = filteredList.get(curP)
 
-                val intent = Intent(itemView.context, Professor_webview::class.java)
+                val intent = Intent(itemView.context, Lab_webview::class.java)
                 intent.putExtra("url", noticec.link);
                 itemView.context.startActivity(intent)
             }
         }
     }
 
-    override fun onBindViewHolder(holder: notice_adapter.ViewHolder, position: Int) {
-        val notice : notice_data = filteredList[position]
+    override fun onBindViewHolder(holder: Notice_adapter.ViewHolder, position: Int) {
+        val notice : Notice_data = filteredList[position]
         holder.num.text = notice.num
         holder.title.text = notice.title
         holder.writer.text = notice.writer
@@ -72,7 +72,7 @@ class notice_adapter(private val context: Context): RecyclerView.Adapter<notice_
                 if (charSearch.isEmpty()) {
                     filteredList = originalList
                 } else {
-                    var tempList = mutableListOf<notice_data>()
+                    var tempList = mutableListOf<Notice_data>()
                     for (currentNotice in filteredList) {
                         if (currentNotice.title.lowercase(Locale.ROOT).contains(charSearch.lowercase(Locale.ROOT))) {
                             tempList.add(currentNotice)
@@ -90,7 +90,7 @@ class notice_adapter(private val context: Context): RecyclerView.Adapter<notice_
             }
 
             override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
-                filteredList = results?.values as ArrayList<notice_data>
+                filteredList = results?.values as ArrayList<Notice_data>
                 notifyDataSetChanged()
             }
        }

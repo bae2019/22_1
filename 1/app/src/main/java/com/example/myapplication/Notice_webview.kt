@@ -17,7 +17,7 @@ class Notice_webview : AppCompatActivity() {
         } else {
             Toast.makeText(this, "전달된 이름이 없습니다", Toast.LENGTH_SHORT).show()
         }
-        setContentView(R.layout.professeor_webview)
+        setContentView(R.layout.lab_webview)
         notice_intro.settings.javaScriptEnabled = true //자바 스크립트 허용
         notice_intro.settings.allowContentAccess = true
         notice_intro.settings.allowFileAccess = true

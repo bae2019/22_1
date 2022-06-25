@@ -64,16 +64,8 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag4.xml"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\professor_item.xml",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\professor_item.xml"
-    },
-    {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\professeor_webview.xml",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\professeor_webview.xml"
-    },
-    {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notice_content.xml",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\activity_notice_content.xml"
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\lab_webview.xml",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\lab_webview.xml"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\frag2.xml",
@@ -106,10 +98,6 @@
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keyword.xml",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\keyword.xml"
-    },
-    {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notice_content.xml",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\notice_content.xml"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\lab.xml",

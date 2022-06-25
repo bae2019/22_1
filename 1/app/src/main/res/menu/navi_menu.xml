@@ -10,12 +10,13 @@
             android:title="@string/navbtn1" />
         <item
             android:id="@+id/navbtn2"
-            android:title="@string/navbtn2" />
+            android:title="@string/navbtn2"/>
         <item
             android:id="@+id/navbtn3"
-            android:title="@string/navbtn3" />
+            android:title="@string/navbtn3"/>
         <item
             android:id="@+id/navbtn4"
-            android:title="@string/navbtn4"/>
+            android:title="@string/navbtn4"
+            />
     </group>
 </menu>

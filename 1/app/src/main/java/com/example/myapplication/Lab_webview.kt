@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.webkit.WebChromeClient
 import android.webkit.WebViewClient
 import android.widget.Toast
-import kotlinx.android.synthetic.main.professeor_webview.*
+import kotlinx.android.synthetic.main.lab_webview.*
 
 
-class Professor_webview : AppCompatActivity() {
+class Lab_webview : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +18,7 @@ class Professor_webview : AppCompatActivity() {
         } else {
             Toast.makeText(this, "전달된 이름이 없습니다", Toast.LENGTH_SHORT).show()
         }
-        setContentView(R.layout.professeor_webview)
+        setContentView(R.layout.lab_webview)
         professor_intro.settings.javaScriptEnabled = true //자바 스크립트 허용
         professor_intro.settings.allowContentAccess = true
         professor_intro.settings.allowFileAccess = true

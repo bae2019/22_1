@@ -10,10 +10,10 @@
         <entry key="..\:/and_workspace/1/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.136" />
         <entry key="..\:/and_workspace/1/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.136" />
         <entry key="..\:/and_workspace/1/app/src/main/res/drawable/side_nav_bar.xml" value="0.159" />
-        <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_calendar.xml" value="0.1" />
+        <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_calendar.xml" value="0.264" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_frag_test.xml" value="0.25364583333333335" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_keyword.xml" value="0.25364583333333335" />
-        <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_lab.xml" value="0.128" />
+        <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_lab.xml" value="0.264" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_lab2.xml" value="0.25364583333333335" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/activity_main_button.xml" value="0.22826086956521738" />
@@ -57,6 +57,7 @@
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/keyword.xml" value="0.25364583333333335" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/lab.xml" value="0.176" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/lab_tab.xml" value="0.25" />
+        <entry key="..\:/and_workspace/1/app/src/main/res/layout/lab_webview.xml" value="0.25364583333333335" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/menu.xml" value="0.264" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/nav_header_navi.xml" value="0.25364583333333335" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/navi.xml" value="0.1" />
@@ -71,7 +72,7 @@
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/professor_item.xml" value="0.25364583333333335" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/schedule.xml" value="0.1671195652173913" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/test_lab.xml" value="0.1" />
-        <entry key="..\:/and_workspace/1/app/src/main/res/layout/toolbar.xml" value="0.16" />
+        <entry key="..\:/and_workspace/1/app/src/main/res/layout/toolbar.xml" value="0.264" />
         <entry key="..\:/and_workspace/1/app/src/main/res/layout/toolbarview.xml" value="0.1" />
         <entry key="..\:/and_workspace/1/app/src/main/res/menu/activity_main_drawer.xml" value="0.2390625" />
         <entry key="..\:/and_workspace/1/app/src/main/res/menu/menu.xml" value="0.25364583333333335" />

@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 
 class ListViewModel : ViewModel() {
     private val repo = Notice_Repo()
-    fun fetchData(): LiveData<MutableList<notice_data>> {
-        val mutableData = MutableLiveData<MutableList<notice_data>>()
+    fun fetchData(): LiveData<MutableList<Notice_data>> {
+        val mutableData = MutableLiveData<MutableList<Notice_data>>()
         repo.getData().observeForever{
             mutableData.value = it
         }

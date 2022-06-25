@@ -45,6 +45,15 @@ drawable kakaotalk_20220328_192449745_02
 drawable menuicon
 drawable pinclipart_com_menu_clip_art_5328945
 drawable side_nav_bar
+font scdream1
+font scdream2
+font scdream3
+font scdream4
+font scdream5
+font scdream6
+font scdream7
+font scdream8
+font scdream9
 id bellicon
 id calendar
 id calendar_imageView1
@@ -60,7 +69,7 @@ id calendar_imageView7
 id calendar_imageView8
 id calendar_imageView9
 id date
-id editTextTextPersonName
+id edit_keyword
 id fragbtn0
 id fragbtn1
 id fragbtn10
@@ -83,6 +92,7 @@ id item_lab2
 id item_lab3
 id item_lab4
 id keyword
+id keyword_listView
 id keyword_navigationView
 id keywordbtn
 id lab
@@ -114,7 +124,6 @@ id office
 id office_navigationView
 id professor_intro
 id recyclerView
-id rv_lab
 id rv_lab0
 id rv_lab1
 id rv_lab10
@@ -127,6 +136,9 @@ id rv_lab7
 id rv_lab8
 id rv_lab9
 id search_notice
+id textView
+id textView3
+id textView6
 id title
 id toolbar
 id verbar
@@ -152,14 +164,13 @@ layout frag7
 layout frag8
 layout frag9
 layout item_lab
-layout item_notice
 layout keyword
 layout lab
+layout lab_webview
 layout navi_header
 layout notice
 layout notice_item
 layout office
-layout professeor_webview
 layout toolbar
 menu navi_menu
 mipmap ic_launcher

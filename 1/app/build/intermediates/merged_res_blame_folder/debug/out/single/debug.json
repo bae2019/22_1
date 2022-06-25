@@ -28,8 +28,8 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_professeor_webview.xml.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\professeor_webview.xml"
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream3.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream3.otf"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_kakaotalk_20220328_192449745.png.flat",
@@ -60,6 +60,10 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream6.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream6.otf"
+    },
+    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -84,6 +88,10 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\c8.png"
     },
     {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream9.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream9.otf"
+    },
+    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -104,6 +112,14 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\activity_calendar.xml"
     },
     {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_lab_webview.xml.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\lab_webview.xml"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream2.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream2.otf"
+    },
+    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_button.xml.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\activity_main_button.xml"
     },
@@ -114,6 +130,10 @@
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_item_lab.xml.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\item_lab.xml"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream5.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream5.otf"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_c4.png.flat",
@@ -144,40 +164,44 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag10.xml"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_frag7.xml.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag7.xml"
-    },
-    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_c2.png.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\c2.png"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_frag7.xml.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag7.xml"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_navi_header.xml.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\navi_header.xml"
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream8.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream8.otf"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_frag0.xml.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag0.xml"
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_navi_header.xml.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\navi_header.xml"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_c9.png.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\c9.png"
     },
     {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_frag0.xml.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag0.xml"
+    },
+    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_menuicon.xml.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\menuicon.xml"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
-    },
-    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_notice_webview.xml.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\activity_notice_webview.xml"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar.xml.flat",
@@ -200,6 +224,10 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\activity_keyword.xml"
     },
     {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream4.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream4.otf"
+    },
+    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -208,20 +236,24 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon2.png.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\icon2.png"
-    },
-    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "D:\\and_workspace\\1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon3.jpg.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\icon3.jpg"
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon2.png.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\icon2.png"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream1.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream1.otf"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_c5.png.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\c5.png"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon3.jpg.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\icon3.jpg"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_kakaotalk_20220328_192449745_02.png.flat",
@@ -242,6 +274,10 @@
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_c3.png.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\c3.png"
+    },
+    {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\font_scdream7.otf.flat",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\font\\scdream7.otf"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_office.xml.flat",
@@ -282,10 +318,6 @@
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\drawable_calendar_image.png.flat",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\drawable\\calendar_image.png"
-    },
-    {
-        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_item_notice.xml.flat",
-        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\item_notice.xml"
     },
     {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\merged_res\\debug\\layout_keyword.xml.flat",

@@ -5,20 +5,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
-class InLabAdapter (val lablist: ArrayList<InLab>) : RecyclerView.Adapter<InLabAdapter.CustomViewHolder>()
+class Lab_adapter (val lablist: ArrayList<Lab_data>) : RecyclerView.Adapter<Lab_adapter.CustomViewHolder>()
 {
 
-    override fun onCreateViewHolder(parent: ViewGroup,viewType: Int): InLabAdapter.CustomViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup,viewType: Int): Lab_adapter.CustomViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_lab, parent, false)
         return CustomViewHolder(view).apply {
             itemView.setOnClickListener {
                 val curPos : Int = adapterPosition
-                val labc : InLab = lablist.get(curPos)
+                val labc : Lab_data = lablist.get(curPos)
 
-                val intent = Intent(itemView.context, Professor_webview::class.java)
+                val intent = Intent(itemView.context, Lab_webview::class.java)
                 intent.putExtra("url", labc.Lurl);
                 itemView.context.startActivity(intent)
             }
@@ -29,7 +28,7 @@ class InLabAdapter (val lablist: ArrayList<InLab>) : RecyclerView.Adapter<InLabA
         return lablist.size
     }
 
-    override fun onBindViewHolder(holder: InLabAdapter.CustomViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: Lab_adapter.CustomViewHolder, position: Int) {
         holder.Pname.text = lablist.get(position).Pname
         holder.Lname.text = lablist.get(position).Lname
         holder.Laddress.text = lablist.get(position).Laddress
