@@ -23,6 +23,15 @@ public final class ActivityCalendarBinding implements ViewBinding {
   public final ImageView calendarImageView1;
 
   @NonNull
+  public final ImageView calendarImageView10;
+
+  @NonNull
+  public final ImageView calendarImageView11;
+
+  @NonNull
+  public final ImageView calendarImageView12;
+
+  @NonNull
   public final ImageView calendarImageView2;
 
   @NonNull
@@ -32,17 +41,44 @@ public final class ActivityCalendarBinding implements ViewBinding {
   public final ImageView calendarImageView4;
 
   @NonNull
+  public final ImageView calendarImageView5;
+
+  @NonNull
+  public final ImageView calendarImageView6;
+
+  @NonNull
+  public final ImageView calendarImageView7;
+
+  @NonNull
+  public final ImageView calendarImageView8;
+
+  @NonNull
+  public final ImageView calendarImageView9;
+
+  @NonNull
   public final ToolbarBinding include;
 
   private ActivityCalendarBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView calendarImageView1, @NonNull ImageView calendarImageView2,
-      @NonNull ImageView calendarImageView3, @NonNull ImageView calendarImageView4,
+      @NonNull ImageView calendarImageView1, @NonNull ImageView calendarImageView10,
+      @NonNull ImageView calendarImageView11, @NonNull ImageView calendarImageView12,
+      @NonNull ImageView calendarImageView2, @NonNull ImageView calendarImageView3,
+      @NonNull ImageView calendarImageView4, @NonNull ImageView calendarImageView5,
+      @NonNull ImageView calendarImageView6, @NonNull ImageView calendarImageView7,
+      @NonNull ImageView calendarImageView8, @NonNull ImageView calendarImageView9,
       @NonNull ToolbarBinding include) {
     this.rootView = rootView;
     this.calendarImageView1 = calendarImageView1;
+    this.calendarImageView10 = calendarImageView10;
+    this.calendarImageView11 = calendarImageView11;
+    this.calendarImageView12 = calendarImageView12;
     this.calendarImageView2 = calendarImageView2;
     this.calendarImageView3 = calendarImageView3;
     this.calendarImageView4 = calendarImageView4;
+    this.calendarImageView5 = calendarImageView5;
+    this.calendarImageView6 = calendarImageView6;
+    this.calendarImageView7 = calendarImageView7;
+    this.calendarImageView8 = calendarImageView8;
+    this.calendarImageView9 = calendarImageView9;
     this.include = include;
   }
 
@@ -79,6 +115,24 @@ public final class ActivityCalendarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.calendar_imageView10;
+      ImageView calendarImageView10 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.calendar_imageView11;
+      ImageView calendarImageView11 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView11 == null) {
+        break missingId;
+      }
+
+      id = R.id.calendar_imageView12;
+      ImageView calendarImageView12 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView12 == null) {
+        break missingId;
+      }
+
       id = R.id.calendar_imageView2;
       ImageView calendarImageView2 = ViewBindings.findChildViewById(rootView, id);
       if (calendarImageView2 == null) {
@@ -97,6 +151,36 @@ public final class ActivityCalendarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.calendar_imageView5;
+      ImageView calendarImageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.calendar_imageView6;
+      ImageView calendarImageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.calendar_imageView7;
+      ImageView calendarImageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.calendar_imageView8;
+      ImageView calendarImageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.calendar_imageView9;
+      ImageView calendarImageView9 = ViewBindings.findChildViewById(rootView, id);
+      if (calendarImageView9 == null) {
+        break missingId;
+      }
+
       id = R.id.include;
       View include = ViewBindings.findChildViewById(rootView, id);
       if (include == null) {
@@ -105,7 +189,9 @@ public final class ActivityCalendarBinding implements ViewBinding {
       ToolbarBinding binding_include = ToolbarBinding.bind(include);
 
       return new ActivityCalendarBinding((ConstraintLayout) rootView, calendarImageView1,
-          calendarImageView2, calendarImageView3, calendarImageView4, binding_include);
+          calendarImageView10, calendarImageView11, calendarImageView12, calendarImageView2,
+          calendarImageView3, calendarImageView4, calendarImageView5, calendarImageView6,
+          calendarImageView7, calendarImageView8, calendarImageView9, binding_include);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -13,13 +14,9 @@ import com.example.myapplication.Notice.Companion.count
 import java.util.*
 import kotlin.collections.ArrayList
 
-
-
 class notice_adapter(private val context: Context): RecyclerView.Adapter<notice_adapter.ViewHolder>(), Filterable {
     var filteredList = mutableListOf<notice_data>()
     val originalList = mutableListOf<notice_data>()
-
-
 
     fun setListData(data:MutableList<notice_data>){
         filteredList = data
@@ -27,7 +24,16 @@ class notice_adapter(private val context: Context): RecyclerView.Adapter<notice_
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): notice_adapter.ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.notice_item,parent, false)
-        return ViewHolder(view)
+        return ViewHolder(view).apply {
+            itemView.setOnClickListener {
+                val curP : Int = adapterPosition
+                val noticec : notice_data = filteredList.get(curP)
+
+                val intent = Intent(itemView.context, Professor_webview::class.java)
+                intent.putExtra("url", noticec.link);
+                itemView.context.startActivity(intent)
+            }
+        }
     }
 
     override fun onBindViewHolder(holder: notice_adapter.ViewHolder, position: Int) {
@@ -44,11 +50,16 @@ class notice_adapter(private val context: Context): RecyclerView.Adapter<notice_
         return filteredList.size
     }
 
-    inner class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        val num : TextView = itemView.findViewById(R.id.num)
+    class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
+        /*val num : TextView = itemView.findViewById(R.id.num)
         val title : TextView = itemView.findViewById(R.id.title)
         val writer : TextView = itemView.findViewById(R.id.writer)
-        val date : TextView = itemView.findViewById(R.id.date)
+        val date : TextView = itemView.findViewById(R.id.date)*/
+        val num = itemView.findViewById<TextView>(R.id.num)
+        val title = itemView.findViewById<TextView>(R.id.title)
+        val writer = itemView.findViewById<TextView>(R.id.writer)
+        val date = itemView.findViewById<TextView>(R.id.date)
+        //val link = itemView.findViewById<TextView>(R.id.link)
 
     }
 

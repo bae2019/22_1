@@ -27,23 +27,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name="com.example.myapplication.FragTest"
-            android:exported="false"
-            android:label="@string/title_activity_frag_test"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
+            android:name="com.example.myapplication.Notice_webview"
+            android:exported="false" />
         <activity
             android:name="com.example.myapplication.Calendar"
-            android:exported="false" />
-        <activity
-            android:name="com.example.myapplication.navnotice"
-            android:exported="false" />
-        <activity
-            android:name="com.example.myapplication.navi"
-            android:exported="false"
-            android:label="@string/title_activity_navi"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
-        <activity
-            android:name="com.example.myapplication.Notice_Content"
             android:exported="false" />
         <activity
             android:name="com.example.myapplication.Keyword"
@@ -58,10 +45,7 @@
             android:name="com.example.myapplication.Lab"
             android:exported="false" />
         <activity
-            android:name="com.example.myapplication.notice"
-            android:exported="false" />
-        <activity
-            android:name="com.example.myapplication.Lab"
+            android:name="com.example.myapplication.Professor_webview"
             android:exported="false" />
         <activity
             android:name="com.example.myapplication.MainButton"

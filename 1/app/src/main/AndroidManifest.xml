@@ -10,23 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".FragTest"
-            android:exported="false"
-            android:label="@string/title_activity_frag_test"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
+            android:name=".Notice_webview"
+            android:exported="false" />
         <activity
             android:name=".Calendar"
-            android:exported="false" />
-        <activity
-            android:name=".navnotice"
-            android:exported="false" />
-        <activity
-            android:name=".navi"
-            android:exported="false"
-            android:label="@string/title_activity_navi"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
-        <activity
-            android:name=".Notice_Content"
             android:exported="false" />
         <activity
             android:name=".Keyword"
@@ -41,10 +28,7 @@
             android:name=".Lab"
             android:exported="false" />
         <activity
-            android:name=".notice"
-            android:exported="false" />
-        <activity
-            android:name=".Lab"
+            android:name=".Professor_webview"
             android:exported="false" />
         <activity
             android:name=".MainButton"

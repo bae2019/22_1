@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.activity_lab.*
 import kotlinx.android.synthetic.main.lab.*
 import kotlinx.android.synthetic.main.toolbar.*
 
-
 class Lab : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {

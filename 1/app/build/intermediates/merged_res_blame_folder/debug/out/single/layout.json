@@ -124,6 +124,10 @@
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag10.xml"
     },
     {
+        "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notice_webview.xml",
+        "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\activity_notice_webview.xml"
+    },
+    {
         "merged": "D:\\and_workspace\\1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\frag3.xml",
         "source": "D:\\and_workspace\\1\\app\\src\\main\\res\\layout\\frag3.xml"
     }
